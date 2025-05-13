@@ -57,3 +57,23 @@ The webcam will open, and facial expressions will be classified and displayed li
 - Format and preprocess the dataset as required in alex_net.m.
 
 - Use the same format during both training and real-time prediction.
+
+## 🗃 Dataset Preparation (FER2013)
+The image dataset is extracted and processed from FER2013 using the following steps:
+
+- Convert grayscale to RGB:
+
+- Original FER2013 images are 48x48 grayscale
+
+- Resized to 227x227 using image_resize.m
+
+- Converted to 227x227x3 (RGB format) using duplicating.m (needed for AlexNet)
+
+# Run the Jupyter Notebook:
+
+- data_create.ipynb organizes and prepares images from .rar files
+
+## 📌 Notes
+Make sure all .rar files in Emotions_Dataset/ are extracted to corresponding folders
+
+MATLAB Image Processing Toolbox is recommended
