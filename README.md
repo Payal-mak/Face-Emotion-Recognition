@@ -38,7 +38,9 @@ To train a new AlexNet-based CNN model on the FER2013 dataset:
    ```matlab
    alex_net
 
-   2. Test the Model using Webcam
+   
+
+2. Test the Model using Webcam
 Once the model is trained and saved:
 
 Run the real-time classification script:
@@ -47,11 +49,11 @@ matlab
 main_output
 The webcam will open, and facial expressions will be classified and displayed live.
 
-FER2013 Dataset
-The FER2013 dataset consists of 48x48 grayscale images labeled with one of seven emotion classes.
+## FER2013 Dataset
+- The FER2013 dataset consists of 48x48 grayscale images labeled with one of seven emotion classes.
 
-Make sure to:
+- Make sure to:
 
-Format and preprocess the dataset as required in alex_net.m.
+- Format and preprocess the dataset as required in alex_net.m.
 
-Use the same format during both training and real-time prediction.
+- Use the same format during both training and real-time prediction.
